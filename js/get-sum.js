@@ -5,8 +5,16 @@
  * @param {number} end 结束范围
  * @returns {number} 返回和
  */
-const getSumOfTriple = (arr, start, end) => {
+const getSumOfTriple = (arr, start = 0, end) => {
   // 请实现……
+  let arr_filtered=arr.filter((value, index, array) => {
+    if ((start < value < end===undefined?end:Number.MAX_SAFE_INTEGER)&&value%3===0) {
+      return value
+    }
+  })
+  return arr_filtered.reduce((pre,cur)=>{
+    return pre+cur
+  })
 };
 
 // * ---------------- 实现的效果：

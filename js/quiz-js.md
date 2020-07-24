@@ -28,4 +28,4 @@ const getLoglevel = () => {
 };
 ```
 
-答：
+答：查了一下，这是es10空值合并运算符，left不为undefined和null则返回left值，否则right值，即localStorage中存在某一项则返回该项，否则返回”INFO“

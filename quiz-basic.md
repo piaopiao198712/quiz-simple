@@ -4,33 +4,33 @@
 
 名词解释，前端开发的语境中，这些东西都是什么？
 
-越精简越好，用一两句话你表现出的理解，例如：`Node.js 是 JS 的一个 runtime`  
+越精简越好，用一两句话你表现出的理解，例如： `Node.js 是 JS 的一个 runtime`
 （不了解的可以跳过）
 
 请在下面的表格中作答：
 
 | 名词           | 是什么               |
 | :------------- | :------------------- |
-| Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
-| npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
-| BFF            | 是 ……                |
-| PWA            | 是 ……                |
-| V8             | 是 ……                |
-| libuv          | 是 ……                |
-| Stack Overflow | 是 ……                |
-| Deno           | 是 ……                |
+| Node.js        | 是 JS 的一个 runtime    |
+| npm            | 是  包管理工具，常用nrm淘宝镜像源               |
+| npx            | 是  没用过，据以前见过的一般npx+<command>表示省略命令地址来调用，类似alias的作用吧              |
+| nvm            | 是  node的版本管理工具，nvm应该是linux平台的，貌似还有个nvm for windows               |
+| nrm            | 是  register管理，nrm use来切换使用的注册地址               |
+| yarn           | 是  和npm类似的工具，没用过               |
+| React          | 是  js框架，没学习过               |
+| Vue            | 是  Evan you的js框架，据了解优势在移动端的表现，单文件组件编程很友好，易于上手               |
+| node_modules   | 是  项目中npm包的存放地址,node根目录中也有一个，存放了npm               |
+| package.json   | 是  主要存放项目中关于包的信息，版本、版本更新规则符号，&.lock.json里面还有包的install来源地址               |
+| ECMAScript     | 是  js核心,原生js,ECMA协会指定，2015版本即es6，其后还有es7,8,9,10...一般统称es6            |
+| Babel          | 是  js版本转码，使用户能用最新的es书写，按照presets规则转换成兼容的代码               |
+| Webpack        | 是  用各种loader+plugin打包项目，并自带本地服务器用以调试               |
+| SSR            | 是  不了解               |
+| BFF            | 是  不了解               |
+| PWA            | 是  据了解是用来实现原生app一些功能的技术               |
+| V8             | 是  谷歌浏览器js引擎，node的js引擎，和以前解释器不同，会把js编译成二进制，运行速度块，是之前node作者选择js开发服务器语言的原因之一           |
+| libuv          | 是   不了解              |
+| Stack Overflow | 是   外文答疑网站，解答都很有水平，很细致很认真，很有用，不像某些答疑，然并卵              |
+| Deno           | 是   不了解              |
 
 ## Q2
 
@@ -43,3 +43,4 @@
 > - 掘金、知乎
 
 答：
+这个目前没有专门的关注，一般不懂什么就百度，像掘金、简书等等之类，感觉掘金的质量更高一些，然后想学什么就看一些大佬的专栏，像阮一峰的es6就很不错，MDN则对每个知识点描述很详细，目前在看css揭秘（css secrets中文版），以前书写css感觉很烦躁，讨厌布局，感觉没什么意思，后来手写了一些项目页面，感觉css还是挺有意思，慢慢的有了自己的书写套路，等以后这方面再成熟一些，可能比较感兴趣写一个自己的css类库

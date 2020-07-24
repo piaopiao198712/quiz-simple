@@ -1,0 +1,9 @@
+.container {
+    display        : flex;
+    justify-content: space-between;
+    // align-items: stretch;默认值
+
+    &>div:first-child {
+        flex-grow        : 1;
+    }
+}
